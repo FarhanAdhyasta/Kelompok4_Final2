@@ -1,0 +1,94 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color:#FFFFFF;
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
+}
+
+.judul{
+    color: #234CAD;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    height: 168px;
+    width: 340px;
+    left: 675px;
+    top: 108px;
+    
+    
+}
+.col-6 .sub{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #234CAD;
+    height: 52px;
+    width: 304px;
+    left: 675px;
+    top: 301px;
+    
+}
+
+.tombol{
+    border: 2px solid #234CAD;
+    color: #234CAD;
+    border-radius: 32.5px;
+    padding: 15px 40px 14px 41px;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.tombol:hover{
+    background-color: #234CAD;
+    color: #FFFFFF;
+}
+
+.row h1{
+    
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #234CAD;
+}
+.p-transform{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    height: 52px;
+    width: 425px;
+    left: 408px;
+    top: 81px;
+    color: #234CAD;
+    
+}
+.rds{
+    background-color: #F2F6FF;
+    height: 575px;
+    width: 575px;
+    left: 0px;
+    top: 0px;
+    border-radius: 60px;
+}    
+
+
+/* .cd1{
+    height: 125px;
+    width: 438px;
+    left: 69px;
+    top: 108px;
+    border-radius: 25px;
+    
+}
+
+.cd1 div:nth-child(1){
+    margin-top: 25px;
+    width: 100px;
+    height: 100px;
+} */
+
+
+
