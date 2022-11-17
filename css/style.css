@@ -1,31 +1,31 @@
-*{
+* {
     font-family: 'Nunito', sans-serif;
     padding: 0px;
     margin: 0px;
 }
 
-a .bg-primary{
+a .bg-primary {
     background-color: #234CAD;
     height: 40px;
 }
 
-.nav-item{
+.nav-item {
     border-bottom: 2px solid #fff;
 }
 
-.nav-item:hover{
+.nav-item:hover {
     border-bottom: 2px solid #234CAD;
     transition: all 0.7s;
 }
 
 
-.nav-link.text-primary{
+.nav-link.text-primary {
     color: #234CAD;
     font-weight: 600;
     font-size: 18px;
 }
 
-a.btn-outline-primary{
+a.btn-outline-primary {
     border: 2px solid #234CAD;
     border-color: #234CAD;
     color: #234CAD;
@@ -36,7 +36,7 @@ a.btn-outline-primary{
     transition: all 0.5s;
 }
 
-a.btn-primary{
+a.btn-primary {
     background-color: #F2F6FF;
     border: none;
     font-weight: 700;
@@ -45,7 +45,7 @@ a.btn-primary{
     transition: all 0.5s;
 }
 
-button.btn-primary{
+button.btn-primary {
     background-color: #F2F6FF;
     border: none;
     font-weight: 700;
@@ -54,37 +54,38 @@ button.btn-primary{
     transition: all 0.5s;
 }
 
-button .navbar-toggler-icon{
+button .navbar-toggler-icon {
     color: #234CAD;
 }
 
-i.text-primary{
+i.text-primary {
     color: #234CAD;
 }
 
-button.navbar-toggler{
+button.navbar-toggler {
     border: none;
     border-radius: 50%;
     background-color: #F2F6FF;
     height: 40px;
 }
 
-.jumbotron{
+.jumbotron {
     background-color: #F2F6FF;
     color: #234CAD;
 }
 
-.jumbotron a.btn-outline-primary{
+.jumbotron a.btn-outline-primary {
     font-size: 22px;
     transition: all 0.5s;
 }
 
-.svg-jumbotron{
+.svg-jumbotron {
     position: absolute;
     height: 45rem;
     top: 4rem;
 }
-.judul{
+
+.judul {
     color: #234CAD;
     font-weight: 700;
     font-size: 48px;
@@ -93,10 +94,11 @@ button.navbar-toggler{
     width: 340px;
     left: 675px;
     top: 108px;
-    
-    
+
+
 }
-.col-6 .sub{
+
+.col-6 .sub {
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
@@ -105,10 +107,10 @@ button.navbar-toggler{
     width: 304px;
     left: 675px;
     top: 301px;
-    
+
 }
 
-.tombol{
+.tombol {
     border: 2px solid #234CAD;
     color: #234CAD;
     border-radius: 32.5px;
@@ -120,19 +122,20 @@ button.navbar-toggler{
     text-align: center;
 }
 
-.tombol:hover{
+.tombol:hover {
     background-color: #234CAD;
     color: #FFFFFF;
 }
 
-.row h1{
-    
+.row h1 {
+
     font-size: 48px;
     font-weight: 700;
     line-height: 56px;
     color: #234CAD;
 }
-.p-transform{
+
+.p-transform {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
@@ -141,18 +144,163 @@ button.navbar-toggler{
     left: 408px;
     top: 81px;
     color: #234CAD;
-    
+
 }
-.rds{
+
+.rds {
     background-color: #F2F6FF;
     height: 575px;
     width: 575px;
     left: 0px;
     top: 0px;
     border-radius: 60px;
-}    
+}
+
+
+section.pricing {
+    background: #ffffff;
+    background: linear-gradient(to right, #ffffff, #ffffff);
+}
+
+.pricing .card {
+    position: relative;
+    border: none;
+    transition: all 0.2s;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+    background: #F2F6FF;
+    border-radius: 60px;
+}
+
+.card-body2 {
+    background: rgba(255, 255, 255, 1);
+
+}
+
+.pricing hr {
+    margin: 1.5rem 0;
+}
+
+.pricing .card-title {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    color: rgba(35, 76, 173, 1);
+    ;
+
+}
+
+.pricing .card-price {
+    font-size: 3rem;
+    margin: 0;
+    color: rgba(35, 76, 173, 1);
+    ;
+}
+
+.pricing .card-price .period {
+    font-size: 0.8rem;
+}
 
 
 
+.pricing .text-muted {
+    opacity: 0.7;
+}
+
+.pricing .btn {
+    font-size: 80%;
+    border-radius: 5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    opacity: 0.7;
+    background: rgba(255, 255, 255, 1);
+    ;
+}
 
 
+/* NESWLATTER */
+
+
+.home-newsletter {
+    padding: 80px 0;
+    background: rgba(242, 246, 255, 1);
+    ;
+}
+
+.home-newsletter .single {
+    max-width: 1240px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.home-newsletter .single h2 {
+    font-size: 22px;
+    color: rgba(35, 76, 173, 1);
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.home-newsletter .single h6 {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #234CAD;
+}
+
+
+.home-newsletter .single .form-control {
+    height: 50px;
+    background: rgba(255, 255, 255, 0.6);
+    border-color: transparent;
+    border-radius: 20px 0 0 20px;
+}
+
+.home-newsletter .single .form-control:focus {
+    box-shadow: none;
+    border-color: rgba(35, 76, 173, 1);
+}
+
+.home-newsletter .single .btn {
+    min-height: 50px;
+    border-radius: 0 20px 20px 0;
+    background: rgba(35, 76, 173, 1);
+    color: #fff;
+}
+
+/* footer */
+
+.card-footer {
+    border-radius: 60px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 900px;
+    background: #F2F6FF;
+}
+
+.text-uppercase {
+    color: #234CAD;
+}
+
+/* Hover Effects on Card */
+
+@media (min-width: 992px) {
+    .pricing .card:hover {
+        margin-top: -.25rem;
+        margin-bottom: .25rem;
+        box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+    }
+
+    .pricing .card:hover .btn {
+        opacity: 1;
+    }
+}
+
+
+
+/* update */
