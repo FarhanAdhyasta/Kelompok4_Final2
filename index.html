@@ -17,79 +17,93 @@
 </head>
 <body>
     
-      <!--navbar-->
-      <nav class="navbar navbar-expand-lg py-3">
-        <div class="container">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span><i class="fa-solid fa-bars text-primary"></i></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
-              <li class="nav-item mx-3">
-                <a class="nav-link text-primary" href="#">Home</a>
-              </li>
-              <li class="nav-item mx-3">
-                <a class="nav-link text-primary" href="#">Product</a>
-              </li>
-              <li class="nav-item mx-3">
-                <a class="nav-link text-primary" href="#">About</a>
-              </li>
-              <li class="nav-item mx-3">
-                <a class="nav-link text-primary" href="#">Contact</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search" id="userNav">
-              <a href="" class="btn btn-outline-primary fw-semibold rounded-5 px-4 me-2">Login</a>
-              <a href="" class="btn btn-primary fw-semibold rounded-5 px-4">Sign Up</a>
-            </form>
-          </div>
-        </div>
-      </nav>  
-
-      <!--jumbotron-->
+    <header>
+        <!--navbar-->
+        <nav class="navbar navbar-expand-lg py-3">
+            <div class="container">
+                <div class="navbar-brand fw-bold text-primary d-none d-lg-block">
+                    <img src="logo/svg/head.svg" alt="" class="">
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span><i class="fa-solid fa-bars text-primary"></i></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+                        <li class="nav-item mx-3">
+                            <a class="nav-link text-primary" href="#">Home</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link text-primary" href="#">Product</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link text-primary" href="#">About</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link text-primary" href="#">Contact</a>
+                        </li>
+                    </ul>
+                    
+                    <form class="d-flex" role="search" id="userNav">
+                        <a href="" class="btn btn-outline-primary fw-semibold rounded-5 px-4 me-2">Login</a>
+                        <a href="" class="btn btn-primary fw-semibold rounded-5 px-4">Sign Up</a>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    
+    <!--jumbotron-->
     <section id="jumbotron">
-      <div class="container py-5">
-        <div class="p-5 mb-5 jumbotron rounded-5">
-          <div class="row">
-            <div class="col-12 col-lg-4 py-5 ps-0 ps-lg-5 text-center text-lg-start">
-              <div id="jumbotron-background">
-                <div id="layer"></div>
-              </div>
-              <h2 class="display-5 fw-bold mb-3">Business Communication Reinvented</h2>
-              <p class="mb-5">Start communicating with your business team more efficiently with our app.</p>
-              <a href="#" class="btn btn-outline-primary fw-semibold rounded-5 px-5 me-2">Get the app</a>
+        <div class="container py-5">
+            <div class="p-5 mb-5 jumbotron rounded-5">
+                <div class="row">
+                    <div class="col-12 col-lg-4 py-5 ps-0 ps-lg-5 text-center text-lg-start">
+                        <div id="jumbotron-background">
+                            <div id="layer">
+
+                            </div>
+                        </div>
+                        <h2 class="display-5 fw-bold mb-3">Business Communication Reinvented</h2>
+                        <p class="mb-5">Start communicating with your business team more efficiently with our app.</p>
+                        <a href="#" class="btn btn-outline-primary fw-semibold rounded-5 px-5 me-2">Get the app</a>
+                    </div>
+                    <div class="d-none d-lg-block col-4 ms-5">
+                        <img src="logo/svg/Jumbotron.svg" alt="" class="svg-jumbotron">
+                    </div>
+                </div>
             </div>
-            <div class="d-none d-lg-block col-4 ms-5">
-              <img src="logo/svg/Jumbotron.svg" alt="" class="svg-jumbotron">
+
+            <div class="row mb-4 py-5 justify-content-between cloud-lock">
+                <div class="col-5">
+                    <div class="row align-items-center text-center text-md-start justify-content-center">
+                        <div class="col-12 col-md-3 mb-3">
+                            <img src="logo/svg/awan.svg" alt="" class="">
+                        </div>
+                        <div class="col-12 col-md-9">
+                            <h5 class="fw-semibold">Cloud based</h5>
+                            <p class="d-none d-md-block">All your messages are always backed up.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-5">
+                    <div class="row align-items-center text-center text-md-start justify-content-center">
+                        <div class="col-12 col-md-3 mb-3">
+                            <img src="logo/svg/kunci.svg" alt="" class="">
+                        </div>
+                        <div class="col-12 col-md-9">
+                            <h5 class="fw-semibold">Secured</h5>
+                            <p class="d-none d-md-block">All your messages are stored very securely.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-        <div class="row mb-4 py-5 justify-content-between cloud-lock">
-          <div class="col-5">
-            <div class="row align-items-center text-center text-md-start justify-content-center">
-              <div class="col-12 col-md-3 mb-3">
-                <img src="logo/svg/awan.svg" alt="" class="">
-              </div>
-              <div class="col-12 col-md-9">
-                <h5 class="fw-semibold">Cloud based</h5>
-                <p class="d-none d-md-block">All your messages are always backed up.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-5">
-            <div class="row align-items-center text-center text-md-start justify-content-center">
-              <div class="col-12 col-md-3 mb-3">
-                <img src="logo/svg/kunci.svg" alt="" class="">
-              </div>
-              <div class="col-12 col-md-9">
-                <h5 class="fw-semibold">Secured</h5>
-                <p class="d-none d-md-block">All your messages are stored very securely.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </section>
+
+
     <!-- content1 -->
     <div id="content">
         <div class="container mx-auto ">
