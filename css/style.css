@@ -168,26 +168,13 @@ button.navbar-toggler{
     border-radius: 30px;
 }
 
-.fa-angle-right{
+.kiri{
     color: #F2F6FF;
 }
-
-.fa-angle-up{
-    color: #F2F6FF;
-}
-
-.toast-img{
-    background-color: #234CAD;
-    height: 20px
-}
-
-.toast-img-error{
-    height: 20px
-}
-
 strong.text-primary{
     color: #234CAD;
 }
+
 
 .footer-list h2{
     color: #234CAD; 
