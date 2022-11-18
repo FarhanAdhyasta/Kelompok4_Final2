@@ -79,10 +79,13 @@ button.navbar-toggler{
     transition: all 0.5s;
 }
 
-.svg-jumbotron{
+.svg-jumb{
     position: absolute;
     height: 45rem;
     top: 4rem;
+}
+#product{
+    color: #234CAD;
 }
 .judul{
     color: #234CAD;
@@ -152,154 +155,81 @@ button.navbar-toggler{
     border-radius: 60px;
 }    
 
-/* pricing */
-section.pricing {
-    background: #ffffff;
-    background: linear-gradient(to right, #ffffff, #ffffff);
-}
-
-.pricing .card {
-    position: relative;
-    border: none;
-    transition: all 0.2s;
-    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
-    background: #F2F6FF;
-    border-radius: 60px;
-}
-
-.card-body2 {
-    background: rgba(255, 255, 255, 1);
-
-}
-
-.pricing hr {
-    margin: 1.5rem 0;
-}
-
-.pricing .card-title {
-    margin: 0.5rem 0;
-    font-size: 0.9rem;
-    letter-spacing: .1rem;
-    font-weight: bold;
-    color: rgba(35, 76, 173, 1);
-    ;
-
-}
-
-.pricing .card-price {
-    font-size: 3rem;
-    margin: 0;
-    color: rgba(35, 76, 173, 1);
-    ;
-}
-
-.pricing .card-price .period {
-    font-size: 0.8rem;
-}
-
-
-
-.pricing .text-muted {
-    opacity: 0.7;
-}
-
-.pricing .btn {
-    font-size: 80%;
-    border-radius: 5rem;
-    letter-spacing: .1rem;
-    font-weight: bold;
-    padding: 1rem;
-    opacity: 0.7;
-    background: rgba(255, 255, 255, 1);
-    ;
-}
-
-
-/* NESWLATTER */
-
-
-.home-newsletter {
-    padding: 80px 0;
-    background: rgba(242, 246, 255, 1);
-    ;
-}
-
-.home-newsletter .single {
-    max-width: 1240px;
+.input{
+    height: auto;
+    width: 50%;
     margin: 0 auto;
-    text-align: center;
-    position: relative;
-    z-index: 2;
-}
-
-.home-newsletter .single h2 {
-    font-size: 22px;
-    color: rgba(35, 76, 173, 1);
-    text-transform: uppercase;
-    margin-bottom: 40px;
-}
-
-.home-newsletter .single h6 {
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center;
-    color: #234CAD;
-}
-
-
-.home-newsletter .single .form-control {
-    height: 50px;
-    background: rgba(255, 255, 255, 0.6);
-    border-color: transparent;
-    border-radius: 20px 0 0 20px;
-}
-
-.home-newsletter .single .form-control:focus {
-    box-shadow: none;
-    border-color: rgba(35, 76, 173, 1);
-}
-
-.home-newsletter .single .btn {
-    min-height: 50px;
-    border-radius: 0 20px 20px 0;
-    background: rgba(35, 76, 173, 1);
-    color: #fff;
-}
-
-/* footer */
-
-.card-footer {
+    background-color: #F2F6FF;
     border-radius: 60px;
-    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    max-width: 900px;
-    background: #F2F6FF;
 }
 
-.text-uppercase {
+.bg-btn{
+    background-color: #234CAD;
+    border-radius: 30px;
+}
+
+.fa-angle-right{
+    color: #F2F6FF;
+}
+
+.fa-angle-up{
+    color: #F2F6FF;
+}
+
+.toast-img{
+    background-color: #234CAD;
+    height: 20px
+}
+
+.toast-img-error{
+    height: 20px
+}
+
+strong.text-primary{
     color: #234CAD;
 }
 
-/* Hover Effects on Card */
-
-@media (min-width: 992px) {
-    .pricing .card:hover {
-        margin-top: -.25rem;
-        margin-bottom: .25rem;
-        box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
-    }
-
-    .pricing .card:hover .btn {
-        opacity: 1;
-    }
+.footer-list h2{
+    color: #234CAD; 
+    font-size: 30px;
 }
 
+.footer-list p{
+    color: #234CAD; 
+    font-size: 18px;
+}
 
+#about {
+    color: #234CAD;
+    position: inherit;
+}
 
-/* update */
+#pricing {
+    color: #234CAD;
+}
+
+.plan-bg{
+    background: #F2F6FF;
+    border: 2px solid #ffffff;
+    color: #234CAD;
+    border-radius: 60px;
+}
+
+.plan-bg-hovered{
+    border: 2px solid #234CAD;
+    color: #234CAD;
+    border-radius: 60px;
+}
+
+.plan-btn{
+    background-color: #FFFFFF;
+    color: #234CAD;
+    font-weight: 700;
+    font-size: 18px;
+    --bs-btn-hover-color: #234CAD;
+    --bs-btn-hover-bg: #F2F6FF;
+    transition: all 0.5s;
+}
 
 
 
